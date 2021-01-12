@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Parisienne-Regular';
+  src:url('Parisienne-Regular.svg#Parisienne-Regular') format('svg'),
+      url('Parisienne-Regular.ttf') format('truetype'),
+      url('Parisienne-Regular.woff') format('woff'),
+      url('Parisienne-ymRq.eot'),
+      url('Parisienne-ymRq.eot?#iefix') format('embedded-opentype'),
+      url('Parisienne-ymRq.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: 'Parisienne-ymRq';
+  src: url('Parisienne-ymRq.eot');
+  src: url('Parisienne-ymRq.eot?#iefix') format('embedded-opentype'),
+       url('Parisienne-ymRq.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+

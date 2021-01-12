@@ -1,0 +1,24 @@
+// || colors
+$primary-color:rgb(14, 123, 170);
+// $primary-color: rgb(0, 200, 100);
+// $primary-color: rgb(6, 160, 83);
+// $primary-color: rgb(200, 00, 100);
+
+$dark-primary-color : darken($primary-color,20);
+
+// beautiful colors #e74c3c rgb(27, 98, 180);
+$contrast: #fff;
+$secondary-color: rgb(100, 60, 43);
+$dark-grey: rgb(15,15,15);
+$light-grey: rgb(243, 243, 243);
+$primary-gradient: linear-gradient(to left, $dark-grey 0%, rgb(40, 40, 40) 100%);
+
+// || fonts
+$default-font:'roboto', sans-serif;
+$primary-font: 'MVBoli', helvetica;
+$heading-font: 'Calibril', serif;
+
+// light theme
+
+// $primary-gradient: linear-gradient(225deg , $light-grey, $light-grey);
+// $contrast: lighten($dark-grey,20);

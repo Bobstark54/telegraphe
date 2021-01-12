@@ -1,0 +1,86 @@
+/*animated scroll arrow animation*/
+@keyframes fade_move_down {
+  0% {
+    transform: translate(0, -10px) rotate(45deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0, 10px) rotate(45deg);
+    opacity: 0;
+  }
+}
+.reveal{
+  & > span, & > a, & > h1, & > h2, & > h3, & > h4, &>p, &>div{
+    opacity: 0;
+    transform: translateY(30px);
+    transition-duration: .3s;
+    transition-property: transform opacity;
+  }
+  & :nth-child(1){
+    transition-delay: .15s;
+  }
+  & :nth-child(2){
+    transition-delay: .3s;
+  }
+  & :nth-child(3){
+    transition-delay: .45s;
+  }
+  & :nth-child(4){
+    transition-delay: .6s;
+  }
+  & :nth-child(5){
+    transition-delay: .75s;
+  }
+  & :nth-child(6){
+    transition-delay: .9s;
+  }
+  & :nth-child(7){
+    transition-delay: 1.15s;
+  }
+  & :nth-child(8){
+    transition-delay: 1.3s;
+  }
+  &.reveal-visible *{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+// .reveal-visible *{
+//   opacity: 1;
+//   transform: translateY(0);
+// }
+// .reveal-1, .reveal-2,.reveal-3, .reveal-4,.reveal-5, .reveal-6{
+//   opacity: 0;
+//   transform: translateY(30px);
+//   transition-duration: .3s;
+//   transition-property: transform opacity;
+// }
+// .reveal-1 {
+//   transition-delay: .15s;
+// }
+
+// .reveal-2 {
+//   transition-delay: .3s;
+// }
+
+// .reveal-3 {
+//   transition-delay: .45s;
+// }
+
+// .reveal-4 {
+//   transition-delay: .6s;
+// }
+
+// .reveal-5 {
+//   transition-delay: .75s;
+// }
+
+// .reveal-visible *{
+//   opacity: 1;
+//   transform: translateY(0);
+// }

@@ -1,0 +1,33 @@
+/*|| Footer Styles*/
+footer{
+	font-family: "MVBoli", sans-serif;
+  	text-align: center;
+	background-image: $primary-gradient;
+	&>*:not(.footnote){
+		color: #FFF;
+	}
+	a{
+		color: #FFF;
+		transition-property: transform opacity color;
+		&:hover{
+			color: $primary-color;
+		}
+	}
+	p a{
+		color: #FFF;
+		border-bottom: #FFF solid 2px;
+	}
+	div.credits{
+		display: flex;
+		justify-content: center;
+		a{
+			margin-left: 0.5em;
+		}
+	}
+	.footnote{
+		font-family: sans-serif;
+		background-color: #FFF;
+		line-height: 3em;
+		font-size: 13px;
+	}
+}
