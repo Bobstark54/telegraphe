@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le télégraphe</title>
+    <style>
+        body{
+            background: url(assets/images/ice-bcg.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            font-family: sans-serif;
+            padding:  0 3em;
+            color: rgb(0, 36, 48);
+        }
+        h1{
+            display: flex;
+            align-items: center;
+        }
+        h3{
+            text-align: center;
+        }
+        svg{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            background: rgb(51, 186, 231);
+            border-radius: 15px;
+            padding: 0.75em;
+            transition-property: background box-shadow;
+            transition-duration: .3s;
+            /* box-shadow: none; */
+        }
+        a:hover{
+            background:rgb(85, 189, 224);
+            box-shadow: 3px 2px 3px lightblue;
+        }
+        ._404{
+            color: #fff;
+            font-weight: 1000;
+            font-size: 70px;
+            text-shadow:lightblue 4px 4px 0px;
+            margin-left: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>erreur<span class="_404">404</span></h1>
+    <h3>Désolé, Il semblerait que vous soyez perdu dans l'océan !</h3>
+    <a href="index.html">retour a la maison</a>
+    <svg>
+        <use href='assets/images/walrus-body.svg#walrus-body'></use>
+    </svg>
+</body>
+</html>
